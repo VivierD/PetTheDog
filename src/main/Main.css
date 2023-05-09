@@ -1,0 +1,65 @@
+.main-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.score{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    justify-content: right;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dog-img{
+    width: 300px;
+    height: 410px;
+}
+.dog-img:hover{
+    width: 310px;
+    height: 420px;
+}
+.dog-img:active{
+    width: 300px;
+    height: 410px;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 5px;
+}
+
+.menu-container{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+    bottom: 0px;
+    border: 1.5mm ridge rgba(165, 42, 42, 0.568)
+}
+.upgrade-1{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.upgrade-item{
+    display: flex;
+    align-items: center;
+    width: 99.5vw;
+    min-height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: solid 1px black;
+}
